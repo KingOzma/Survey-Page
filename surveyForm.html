@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="surveyForm.css">
+</head>
+<body>
+
+	<h1> Favorite RPG Survey </h1>
+<form>
+<div class ="survey">
+	<label for="name">Name:</label>
+		<input id="name" type="name" placeholder="name" required><br>
+	
+	<label for="email">Email:</label>
+		<input id="email" type="email" placeholder="email" required><br>
+
+	<label for="age">Age:</label>
+		<input id="age" type="number" min ="0" placeholder="age" required><br>
+</div>
+
+<p> Where are you from?</p>
+	<select>
+  		<option value="location">North America</option>
+ 		<option value="location">South America</option>
+  		<option value="location">Europe</option>
+  		<option value="location">Europe</option>
+ 		<option value="location">Africa</option>
+  		<option value="location">Australia</option>
+  		<option value="location">Asia</option>
+	</select>
+
+		<p>Please select your favorite RPG:</p>
+  <input type="radio" name="rpg" value="Final Fantasy"> Final Fantasy<br>
+  <input type="radio" name="rpg" value="Persona"> Persona<br>
+  <input type="radio" name="rpg" value="Pokemon"> Pokemon<br>
+  <input type="radio" name="rpg" value="Monster Hunter"> Monster Hunter<br>
+  <input type="radio" name="rpg" value="Dragon Quest"> Dragon Quest<br>   
+
+
+   <p><textarea rows="7" cols="35" required placeholder="Briefly explain why it's your favorite RPG..."></textarea><br></p>
+
+		<input type ="Submit">
+</form>
+	
+</body>
+</html>

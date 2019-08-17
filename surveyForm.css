@@ -1,0 +1,27 @@
+body{
+	background: url(http://i.imgur.com/KdPBhdG.jpg);
+	background-size: 1600px;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.survey {
+	width: 220px;
+}
+.survey label{
+	display: inline-block;
+	text-align: right;
+	float: left;
+}
+.survey input{  
+	display: inline-block;
+	text-align: left;
+	float: right;
+}
+
+textarea{
+	resize: none;
+}
